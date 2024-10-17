@@ -24,10 +24,14 @@
       <td>{{($produto->descricao)}}</td>
       <td>{{($produto->preco)}}</td>
       <td>
+
       <form method="POST" action="/deletar_produto/{{$produto->id}}">
+      <a href="/listar_produto/{{$produto->id}}">Editar</a> <br>
         @csrf
         {{ method_field("DELETE") }}
+        
         <input type="submit" value="delete produto">
+      <
       </form>
       </td>
     </tr>

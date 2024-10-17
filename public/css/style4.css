@@ -6,13 +6,13 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(228, 209, 173);
+    background-color: rgb(175, 175, 175);
 }
 
 #btn{
     width: 100%;
     padding: 10px;
-    background-color: rgb(172, 154, 107);
+    background-color: rgb(146, 107, 172);
     color: white;
     text-shadow: black;
     border: none;
@@ -44,7 +44,7 @@ body {
 }
 
 #userform button:hover {
-    background-color: #005007;
+    background-color: #9dfca5;
 }
 
 .p{

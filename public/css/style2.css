@@ -6,13 +6,13 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(177, 164, 194);
+    background-color: rgb(148, 255, 246);
 }
 
 #btn{
     width: 100%;
     padding: 10px;
-    background-color: rgb(136, 125, 150);
+    background-color: rgb(209, 174, 255);
     color: white;
     text-shadow: black;
     border: none;
@@ -44,7 +44,7 @@ body {
 }
 
 #clienform button:hover {
-    background-color: #005007;
+    background-color: #9dfca5;
 }
 
 .p{

@@ -4,6 +4,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\VendedorController;
+use App\Http\Controllers\AppController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -18,7 +19,7 @@ Route::delete('/deletar_usuario/{id}', [UserController::class, 'deletar']);
 
 Route::get('/editar_usuario/{id}', [UserController::class, 'formEditarUsuario']);
 
-Route::patch('/editar_usuario/{id}', [UserController::class, 'editar']);
+Route::put('/editar_usuario/{id}', [UserController::class, 'editar']);
 
 
 
@@ -48,3 +49,6 @@ Route::post('/criar_vendedor', [VendedorController::class, 'criar']);
 Route::get('/listar_vendedor', [VendedorController::class, 'listar']);
 
 Route::delete('/deletar_vendedor/{id}', [VendedorController::class, 'deletar']);
+
+//App
+Route::get('/', [AppController::class, 'Inicial']);

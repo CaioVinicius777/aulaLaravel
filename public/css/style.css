@@ -6,13 +6,13 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: rgb(155, 194, 147);
+            background-color: rgb(210, 142, 219);
         }
 
         #btn{
             width: 100%;
             padding: 10px;
-            background-color: #005807;
+            background-color: #e2cb7e;
             color: white;
             border: none;
             border-radius: 4px;
@@ -43,7 +43,7 @@
         }
 
         #vendform button:hover {
-            background-color: #005007;
+            background-color: #9dfca5;
         }
 
         .p{

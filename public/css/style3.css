@@ -6,13 +6,13 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(237, 241, 192);
+    background-color: rgb(192, 255, 195);
 }
 
 #btn{
     width: 100%;
     padding: 10px;
-    background-color: rgb(162, 165, 118);
+    background-color: rgb(109, 109, 109);
     color: white;
     text-shadow: black;
     border: none;
@@ -44,7 +44,7 @@ body {
 }
 
 #prodform button:hover {
-    background-color: #005007;
+    background-color: #9dfca5;
 }
 
 .p{

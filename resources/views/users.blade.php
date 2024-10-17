@@ -8,6 +8,7 @@
   <title>Lista de Usuarios</title>
 </head>
 <body>
+
   <table border="1">
     <tr>
       <th>Nome</th>
@@ -22,7 +23,7 @@
       <td>{{($user->email)}}</td>
       <td>
       <form method="POST" action="/deletar_usuario/{{$user->id}}">
-      <a href="/editar_usuario/{{$user->id}}">Editar</a>
+      <a href="/editar_usuario/{{$user->id}}">Editar</a> <br>
         @csrf
         {{ method_field("DELETE") }}
         <input type="submit" value="delete user">
